@@ -7,11 +7,16 @@
 	date_default_timezone_set('America/Guatemala');
 
 	//Datos de conexión a Base de Datos
-	const DB_HOST = "localhost";
-	const DB_NAME = "db_tiendavirtual";
-	const DB_USER = "root";
-	const DB_PASSWORD = "";
+	const DB_HOST = "us-cluster-east-01.k8s.cleardb.net";
+	const DB_NAME = "heroku_594b6dbd90ca8f2l";
+	const DB_USER = "be4cee8f1fcf13";
+	const DB_PASSWORD = "1cdf4e3f";
 	const DB_CHARSET = "utf8";
+	
+	// const DB_HOST = "localhost";
+	// const DB_NAME = "db_tiendavirtual";
+	// const DB_USER = "root";
+	// const DB_PASSWORD = "";
 
 	//Deliminadores decimal y millar Ej. 24,1989.00
 	const SPD = ".";
